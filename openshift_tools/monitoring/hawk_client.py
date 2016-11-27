@@ -85,6 +85,8 @@ class HawkClient(object):
                 # Use MetricType.Gauge for numeric metrics data
                 metric_type = MetricType.Gauge
 
+            # udpate tag miq_metric
+            self.client.update_metric_tags(metric_type, key, miq_metric="true")
             self.client.push(metric_type, key, value, clock)
 
         status, raw_response = None, None
