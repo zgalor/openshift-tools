@@ -46,6 +46,7 @@ cp -p monitoring/cron-send-docker-timer.py %{buildroot}/usr/bin/cron-send-docker
 cp -p monitoring/cron-send-docker-containers-usage.py %{buildroot}/usr/bin/cron-send-docker-containers-usage
 cp -p monitoring/cron-send-docker-dns-resolution.py %{buildroot}/usr/bin/cron-send-docker-dns-resolution
 cp -p monitoring/cron-send-docker-existing-dns-resolution.py %{buildroot}/usr/bin/cron-send-docker-existing-dns-resolution
+cp -p monitoring/cron-send-docker-oc-versions.py %{buildroot}/usr/bin/cron-send-docker-oc-versions
 cp -p monitoring/cron-send-registry-checks.py %{buildroot}/usr/bin/cron-send-registry-checks
 cp -p monitoring/ops-zbx-event-processor.py %{buildroot}/usr/bin/ops-zbx-event-processor
 cp -p monitoring/cron-send-os-skydns-checks.py %{buildroot}/usr/bin/cron-send-os-skydns-checks
